@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Styles For Men</title>
+</head>
+
+<body>
+  <h1 style="text-align:center;">Men's Clothing Styles </h1>
+  <hr>
+  <h2><u>Summer Casual</u></h2>
+  <a href=><img src="https://i.pinimg.com/originals/7a/e8/7e/7ae87e0023764ccb7f5c97269f084d66.jpg" width="350"
+      height="450"></a>
+  <a href=><img src="https://i.pinimg.com/originals/ec/b8/fb/ecb8fbcdb27092d1a1cf0f806e777530.png" width="350"
+      height="450"></a>
+  <a href=><img src="https://i.pinimg.com/564x/12/e5/c7/12e5c7bd8ee26d2a99f2fef7eb22efba.jpg" width="350"
+      height="450"></a>
+  <h2><u>Winter Casual</u></h2>
+  <a href=><img src="https://i.pinimg.com/564x/6b/6b/38/6b6b381b0430e1a23cba252db97eca82.jpg" width="350"
+      height="450"></a>
+  <a href=><img src="https://i.pinimg.com/564x/53/16/af/5316afda9d63753ddadcf77047837696.jpg" width="350"
+      height="450"></a>
+  <a href><img src="https://i.pinimg.com/736x/e7/a9/6f/e7a96f0270b3cddd0e60723181f45aca.jpg" width="350"
+      height="450"></a>
+  <h3><u>Sports Wear</u></h3>
+  <a href=><img src="https://i.pinimg.com/originals/05/ba/73/05ba73dfe4212aee8b259c066face809.jpg" width="350"
+      height="450"></a>
+  <a href><img
+      src="https://urbanmenoutfits.com/wp-content/uploads/2018/08/best-summer-gym-and-workout-outfits-for-men-01-645x800.jpg"
+      width="350" height="450"></a>
+  <a href><img
+      src="https://target.scene7.com/is/image/Target//GUEST_1e3682b0-92f5-4b51-ba74-60d168a6df4d?wid=328&hei=328&qlt=80&fmt=pjpeg"
+      width="350" height="450"></a>
+  <h4><u>Formal Wear</u></h4>
+  <a href=><img src="https://cf.ltkcdn.net/mens-fashion/images/std/231576-300x450-businessman.jpg" width="350"
+      height="450"></a>
+  <a href=><img src="https://i.pinimg.com/originals/22/ec/4d/22ec4dab31b02c8ac335121ed896bbdb.jpg" width="350"
+      height="450"></a>
+  <a href=><img src="https://i.pinimg.com/originals/39/64/5f/39645f7bc5d5b7e05f400737756c0f80.jpg" width="350"
+      height="450"></a>
+</body>
+
+</html>
+</head>
+
+<body>
+  <h1 style="text-align:center;">Women's Clothing Styles </h1>
+  <hr>
+  <h2><u>Summer Casual</u></h2>
+  <hr>
+  <a href=><img src="https://i.pinimg.com/564x/91/01/f5/9101f57d47b044c236865a217d908b25.jpg" width="350"
+      height="450"></a>
+  <a href=><img
+      src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/guest-is-seen-outside-cushnie-et-ochs-during-new-york-news-photo-1028931562-1555091635.jpg"
+      width="350" height="450"></a>
+  <a href=><img src="https://i.pinimg.com/originals/d5/d2/1d/d5d21dda1a9ba353a23565ac1809b37f.jpg" width="350"
+      height="450"></a>
+  <h2><u>Winter Casual</u></h2>
+  <a href=><img
+      src="https://i0.wp.com/stylevilas.com/wp-content/uploads/2016/01/Sneakers-With-Winter-Outfits-Women-Casual-Wear-8.jpg?fit=600%2C900"
+      width="350" height="450"></a>
+  <a href=><img
+      src="https://i0.wp.com/uniqlog.com/wp-content/uploads/2017/07/2016-Fall-Winter-Casual-Outfits.jpg?resize=640%2C960"
+      width="350" height="450"></a>
+  <a href><img
+      src="https://lh3.googleusercontent.com/proxy/cq3p5FXHWBTvxrtPnIjNgds4k7ixEIOtbs-tSmdms8BYSLTKUZMeH1MDN_IH4gFmd9LNq9tJZAS27bhbvY6vouU6o-rk2gFyGZsi3UxPXueClbbdNkGjT9-FRbjsPWX0mvhR_S7kfW5N"
+      width="350" height="450"></a>
+  <h3><u>Sports Wear</u></h3>
+  <a href=><img src="https://i.pinimg.com/564x/0d/77/2f/0d772fd10f9ec72d7ac2c8fde2d57e7b.jpg" width="350"
+      height="450"></a>
+  <a href><img src="https://i.pinimg.com/564x/81/ec/e0/81ece0ceb030fcd8aee404749a5a1058.jpg" width="350"
+      height="450"></a>
+  <a href><img src="https://bombinatewear.com/wp-content/uploads/2019/08/gray-sleeveless-sportswear-set-1.jpg"
+      width="350" height="450"></a>
+  <h4><u>Formal Wear</u></h4>
+  <a href=><img src="https://i.pinimg.com/originals/94/17/c8/9417c8ff7ccf710364ba286b259590c7.jpg" width="350"
+      height="450"></a>
+  <a href=><img
+      src="https://img.davidsbridal.com/is/image/DavidsBridalInc/1656CH7C_MNAVY_PRTY_PROD11_044?$plpproductimgmobile_1up$"
+      width="350" height="450"></a>
+  <a href=><img src="https://i.pinimg.com/736x/90/76/5c/90765c6cfa0d30e1348cc317b82103be.jpg" width="350"
+      height="450"></a>
+</body>
+
+</html>
