@@ -1,9 +1,5 @@
-h1,h2,p{
+h1,h2,p {
     text-align: center;
-}
-h3 {
-    font-size: 200%;
-   margin-top: -5px;
 }
 body {
     background: 0% 0% / contain rgb(35, 35, 35);
@@ -52,18 +48,19 @@ figcaption {
     font-style: italic;
     font-size: 23px;
 }
-section {
-    display: flex;
+footer {
+    font-weight: bold;
 }
-.pic {
-    
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-.margin {
-    margin-right: 10px;
+.quizformat {
+    background-color: #f8f7f7;
+    width: 75%;
+    height: 400px;
 }
-@media only screen and (min-width: 999px) {
-    .pic {
-        height: 350px;
-        width: 300px;
-    }
+hr {
+    color:white;
 }
