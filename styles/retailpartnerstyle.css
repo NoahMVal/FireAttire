@@ -3,7 +3,6 @@
   background: linear-gradient(to bottom, #f8f7f7 0%, #232323 100%);)
   padding: 20px 10px;
 }
-
 .header a {
   float: left;
   color: black;
@@ -13,7 +12,6 @@
   line-height: 25px;
   border-radius: 4px;
 }
-
 .header a.logo{
   font-size: 25px;
   font-weight: bold;
@@ -28,11 +26,20 @@
   float: right;
 }
 
-.h2{
-  display: flex;
-  text-decoration-color: black;
-  background-color: white;
-  align: center;
+h2{
+  height: 50%;
+  width: 50%;
+  flex-flow: row wrap;
+  align-items: center;
+  outline: 5px black;
+}
+a{
+  height: 50%;
+  width: 50%;
+  text-decoration-color: white;
+  background-color: inherit;
+  text-align: center;
+  flex-flow: row wrap;
 }
 
 body{
@@ -43,3 +50,4 @@ body{
     font-size: 26px;
     color: rgb(248, 247, 247);
 }
+
