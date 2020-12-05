@@ -26,6 +26,10 @@
   float: right;
 }
 
+h1{
+  text-align: center;
+}
+
 h2{
   height: 50%;
   width: 50%;
@@ -34,8 +38,8 @@ h2{
   outline: 5px black;
 }
 a{
-  height: 50%;
-  width: 50%;
+  height: 200px;
+  width: 200px;
   text-decoration-color: white;
   background-color: inherit;
   text-align: center;
@@ -51,3 +55,55 @@ body{
     color: rgb(248, 247, 247);
 }
 
+.greyBox{
+  height: 200px;
+  width: 200px;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+.greyBox-image{
+  max-width: 200px;
+  max-height: 200px;
+  padding: 40px;
+}
+
+@media only screen and (max-width:480px){
+  .greyBox {
+    background-color: #383838;
+    height: 2000px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    color: #f8f7f7;
+    flex-flow: column wrap;
+    font-size: 15px;
+  }
+
+  .greyBox-image {
+    max-width: 65%;
+    max-height: 65%;
+    padding: 1px;
+  }
+}
+
+
+@media only screen and (max-width:998px) and (min-width:481px){
+    .greyBox {
+      background-color: #383838;
+      height: 2000px;
+      display: flex;
+      align-content: space-around;
+      justify-content: space-around;
+      color: #f8f7f7;
+      flex-flow: column wrap;
+      font-size: 15px;
+  }
+
+
+  .greyBox-image {
+    max-width: 65%;
+    max-height: 65%;
+    padding: 1px;
+  }
+}
