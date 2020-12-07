@@ -180,35 +180,35 @@ h2{
 
 
 @media only screen and (max-width:998px) and (min-width:481px){
-.greyBox {
-    background-color: #383838;
-    height: 800px;
-    display: flex;
-    align-content: flex-start;
-    justify-content: space-around;
-    color: #f8f7f7;
-    flex-flow: column wrap;
-    font-size: 15px;
-}
+  .greyBox {
+      background-color: #383838;
+      height: 800px;
+      display: flex;
+      align-content: flex-start;
+      justify-content: space-around;
+      color: #f8f7f7;
+      flex-flow: column wrap;
+      font-size: 15px;
+  }
 
-.blackBox {
-    height: 800px;
-    background-color: #232323; 
-    display: flex;
-    align-content: flex-start;
-    justify-content: space-around;
-    color: #f8f7f7;
-    flex-flow: column wrap;
-    font-size: 15px;
-}
-.blackBox-image {
-  max-width: 100%;
-  max-height: 100%;
-}
-.greyBox-image {
-  max-width: 100%;
-  max-height: 100%;
-}
+  .blackBox {
+      height: 800px;
+      background-color: #232323; 
+      display: flex;
+      align-content: flex-start;
+      justify-content: space-around;
+      color: #f8f7f7;
+      flex-flow: column wrap;
+      font-size: 15px;
+  }
+  .blackBox-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .greyBox-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 a{
