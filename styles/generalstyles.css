@@ -1,4 +1,4 @@
- .header {
+.header {
     overflow: hidden;
     background: linear-gradient(to bottom, #f8f7f7 0%, #232323 100%);
     padding: 20px 10px;
@@ -76,7 +76,7 @@
 @media only screen and (max-width:480px){
   .greyBox {
     background-color: #383838;
-    height: 2000px;
+    height: 3000px;
     display: flex;
     align-content: space-around;
     justify-content: space-around;
@@ -96,7 +96,7 @@
 @media only screen and (max-width:998px) and (min-width:481px){
     .greyBox {
       background-color: #383838;
-      height: 2000px;
+      height: 3000px;
       display: flex;
       align-content: space-around;
       justify-content: space-around;
