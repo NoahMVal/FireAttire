@@ -4,95 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Womens Style Quiz</title>
-    <link rel="stylesheet" href="stylequiz.css">
+    <link rel="stylesheet" href="styles/stylequiz.css">
     <link rel='icon' href='imagesforsite/favicon.ico' type='image/ico'>
 </head>
 <body>
-  <script src="stylequiz.js"></script>
+  <script src="JS/stylequiz.js"></script>
   <header>
     <div class="header">
         <a href="index.html" class="logo">
             <a href="index.html">
-                <img src="https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kifCCqhRJnx...IwXs1M3EMoAJtliAvhfVo8...05">
+                <img src="images/fireattirelogo.jpg">
             </a>
         </a>
         <div class="header-right">
         <a class="active" href="index.html">Home</a>
         <a href="aboutus.html">About</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Surprise</a>
+        <a href="Rick Astley - Never Gonna Give You Up (Video).mp4">Surprise</a>
         </div>
     </div>
-</header>
-    <h2>Indicate which rows contain outfits you could see yourself wearing</h2>
-    <hr>
-    
-    <div class="greyBox">
-        <input type="checkbox" name="AE" id="AECheck" onclick="AEBox()" >
-        <img class='greyBox-image' src="https://s7d2.scene7.com/is/image/aeo/1455_1061_207_of?$pdp-m-opt$&fmt=webp"></a>
-        <img class='greyBox-image' src="https://s7d2.scene7.com/is/image/aeo/0341_9368_313_of?$pdp-m-opt$&fmt=webp"></a>
-        <img class='greyBox-image' src="https://s7d2.scene7.com/is/image/aeo/0534_9322_309_of?$pdp-m-opt$&fmt=webp"></a>
+  </header>
+  <main>
+    <section>
+    <figure>
+      <h2>Indicate which rows contain outfits you could see yourself wearing</h2>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="AE" id="AECheck" onclick="AEBox()" >
+          <img class='greyBox-image' src="images/AEwomen1.webp" ></a>
+          <img class='greyBox-image' src="images/AEwomen2.webp"></a>
+          <img class='greyBox-image' src="images/AEwomen3.webp" ></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="UrbanOutfitters" id="UOCheck" onclick="UOBox()">
+          <img class='greyBox-image' src="images/UOwomen1.jfif"></a>
+          <img class='greyBox-image' src="images/UNwomen2.jpg" ></a>
+          <img class='greyBox-image' src="images/UOwomen3.jfif"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="oldnavy" id="ONCheck" onclick="ONBox()">
+          <img class='greyBox-image' src="images/ONwomen1.webp"></a>
+          <img class='greyBox-image' src="images/ONwomen2.webp" ></a>
+          <img class='greyBox-image' src="images/ONwomen3.webp"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="Forever21" id="F21Check" onclick="F21Box()">
+          <img class='greyBox-image' src="images/F21women1.jpg"></a>
+          <img class='greyBox-image' src="images/F21women2.jpg" ></a>
+          <img class='greyBox-image' src="images/F21women3.jpg"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="ASOS" id="ASOSCheck" onclick="ASOSBox()">
+          <img class='greyBox-image' src="images/ASOSwomen1.webp"></a>
+          <img class='greyBox-image' src="images/ASOSwomen2.jfif" ></a>
+          <img class='greyBox-image' src="images/ASOSwomen3.webp"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="H&M" id="HMCheck" onclick="HMBox()">
+          <img class='greyBox-image' src="images/HMwomen1.jfif"></a>
+          <img class='greyBox-image' src="images/HMwomen2.jfif" ></a>
+          <img class='greyBox-image' src="images/HMwomen3.jfif"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="uniqlo" id="UNCheck" onclick="UNBox()">
+          <img class='greyBox-image' src="images/UNwomen1.jpg"></a>
+          <img class='greyBox-image' src="images/UNwomen2.jpg" ></a>
+          <img class='greyBox-image' src="images/UNwomen3.jpg"></a>
+        </div>
+      <hr>
+      <div class="greyBox">
+          <input type="checkbox" name="TommyHilfiger" id="THCheck" onclick="THBox()">
+          <img class='greyBox-image' src="images/THwomen1.jfif"></a>
+          <img class='greyBox-image' src="images/THwomen2.jfif" ></a>
+          <img class='greyBox-image' src="images/THwomen3.jfif"></a>
+        </div>
+      <hr>
+    </figure>
+    </section>  
+    <section>
+    <figure>
+      <h2>Based on your options, you might like these brand(s)!</h2>
+      <h4>click on the icons to be redirected to the specific brand</h4>
+      <div class="blackBox">
+          <a href="https://www.ae.com/us/en"><img id="AEpic" class='blackBox-image' src="images/AElogo.jpg"></a>
+          <a href="https://www.urbanoutfitters.com/ "><img id="UOpic" class='blackBox-image' src="images/UOlogo.jfif" ></a>
+          <a href="https://oldnavy.gap.com/"><img id="ONpic" class='blackBox-image' src="images/ONlogo.jpg"></a>
+          <a href="https://www.forever21.com/us/shop"><img id="F21pic" class='blackBox-image' src="images/F21logo.png" ></a>
+          <a href="https://www.asos.com/us/"><img id="ASOSpic" class='blackBox-image' src="images/ASOSlogo.jpg"></a>
+          <a href="https://www2.hm.com/en_us/index.html"><img id="HMpic"class='blackBox-image' src="images/HMlogo.png"></a>
+          <a href="https://www.uniqlo.com/us/en/home/"><img id="UNpic" class='blackBox-image' src="images/UNlogo.jpg"></a>
+          <a href="https://usa.tommy.com/en/"><img id="THpic" class='blackBox-image' src="images/THlogo.png"></a>
       </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="UrbanOutfitters" id="UOCheck" onclick="UOBox()">
-        <img class='greyBox-image' src="https://s7d5.scene7.com/is/image/UrbanOutfitters/57633521_072_b?$xlarge$&fit=constrain&qlt=80&wid=683"></a>
-        <img class='greyBox-image' src="https://s7d5.scene7.com/is/image/UrbanOutfitters/59237156_020_d?$medium$&qlt=80&fit=hfit" ></a>
-        <img class='greyBox-image' src="https://s7d5.scene7.com/is/image/UrbanOutfitters/56121387_001_f?$xlarge$&fit=constrain&qlt=80&wid=683"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="oldnavy" id="ONCheck" onclick="ONBox()">
-        <img class='greyBox-image' src="https://www2.assets-gap.com/webcontent/0019/598/942/cn19598942.jpg"></a>
-        <img class='greyBox-image' src="https://www1.assets-gap.com/webcontent/0019/509/828/cn19509828.jpg" ></a>
-        <img class='greyBox-image' src="https://www1.assets-gap.com/webcontent/0019/688/847/cn19688847.jpg"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="Forever21" id="F21Check" onclick="F21Box()">
-        <img class='greyBox-image' src="https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dw2d322695/1_front_750/00425877-04.jpg?sw=400&sh=600"></a>
-        <img class='greyBox-image' src="https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dw92484181/2_side_750/00423331-01.jpg?sw=400&sh=600" ></a>
-        <img class='greyBox-image' src="https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dw20e10ebb/1_front_750/00424096-01.jpg?sw=500&sh=750"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="ASOS" id="ASOSCheck" onclick="ASOSBox()">
-        <img class='greyBox-image' src="https://images.asos-media.com/products/asos-design-cami-cowl-neck-midi-dress-in-black/21574656-1-black?$n_480w$&wid=476&fit=constrain"></a>
-        <img class='greyBox-image' src="https://images.asos-media.com/products/asos-design-scoop-back-bias-cut-satin-maxi-dress/14637461-1-champagne?$n_480w$&wid=476&fit=constrain" ></a>
-        <img class='greyBox-image' src="https://images.asos-media.com/products/asos-edition-beatrice-bardot-drape-wrap-wedding-dress/14117048-1-softapricot?$n_480w$&wid=476&fit=constrain"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="H&M" id="HMCheck" onclick="HMBox()">
-        <img class='greyBox-image' src="https://lp2.hm.com/hmgoepprod?set=source[/39/6f/396f849fbf150508838960c961e75c447d4c1e41.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]"></a>
-        <img class='greyBox-image' src="https://lp2.hm.com/hmgoepprod?set=source[/06/32/0632f3323ba67d22b1d948cfa289390d0c5f1b97.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]" ></a>
-        <img class='greyBox-image' src="https://lp2.hm.com/hmgoepprod?set=source[/dc/67/dc67649861a32fcdea3d075af03e81a7a211f051.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="uniqlo" id="UNCheck" onclick="UNBox()">
-        <img class='greyBox-image' src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/429461/item/goods_09_429461.jpg?width=380"></a>
-        <img class='greyBox-image' src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/429459/item/goods_30_429459.jpg?width=380" ></a>
-        <img class='greyBox-image' src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/429458/item/goods_11_429458.jpg?width=380"></a>
-      </div>
-    <hr>
-    <div class="greyBox">
-        <input type="checkbox" name="TommyHilfiger" id="THCheck" onclick="THBox()">
-        <img class='greyBox-image' src="https://shoptommy.scene7.com/is/image/ShopTommy/S100660_600_FNT?wid=672&hei=896&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1"></a>
-        <img class='greyBox-image' src="https://shoptommy.scene7.com/is/image/ShopTommy/S100439_001_FNT?wid=672&hei=896&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1" ></a>
-        <img class='greyBox-image' src="https://shoptommy.scene7.com/is/image/ShopTommy/S100619_400_FNT?wid=672&hei=896&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1"></a>
-      </div>
-    <hr>
-    <h2>Based on your options, you might like these brand(s)!</h2>
-    <h4>click on the icons to be redirected to the specific brand</h4>
-    <div class="blackBox">
-        <a href="https://www.ae.com/us/en"><img id="AEpic" class='blackBox-image' src="https://thepinnacle.com/wp-content/uploads/2017/10/AEoutfitters.jpg"></a>
-        <a href="https://www.urbanoutfitters.com/ "><img id="UOpic" class='blackBox-image' src="https://s7w2p1.scene7.com/is/image/UrbanOutfitters/ugc/857215128.tif" ></a>
-        <a href="https://oldnavy.gap.com/"><img id="ONpic" class='blackBox-image' src="https://cdn.abcotvs.com/dip/images/392344_111214-ap-old-navy-img.jpg?w=1280&r=16%3A9"></a>
-        <a href="https://www.forever21.com/us/shop"><img id="F21pic" class='blackBox-image' src="https://1000logos.net/wp-content/uploads/2020/05/Forever-21-Logo.png" ></a>
-        <a href="https://www.asos.com/us/"><img id="ASOSpic" class='blackBox-image' src="https://s3-eu-west-1.amazonaws.com/emap-nibiru-prod/wp-content/uploads/sites/2/2010/01/07061021/Asos-5.jpg"></a>
-        <a href="https://www2.hm.com/en_us/index.html"><img id="HMpic"class='blackBox-image' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/640px-H%26M-Logo.svg.png"></a>
-        <a href="https://www.uniqlo.com/us/en/home/"><img id="UNpic" class='blackBox-image' src="https://i.pinimg.com/originals/6c/45/0b/6c450b30965ce1af26c04c68c795b97a.jpg"></a>
-        <a href="https://usa.tommy.com/en/"><img id="THpic" class='blackBox-image' src="https://i.pinimg.com/originals/d3/09/1a/d3091a1a5350fede679b2c7461b0745b.png"></a>
-    </div>
+    </figure>
+    </section>
+  </main>
 </body>
 </html>
